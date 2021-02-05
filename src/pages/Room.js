@@ -3,7 +3,7 @@ import React from 'react'
 const Room = () => {
     return (
         <>
-            <h1>Room</h1>
+            <h1>チャットルーム</h1>
         </>
     )
 }

@@ -3,10 +3,10 @@ import React from 'react';
 const Signup = () => {
     return (
         <div>
-            <h1>Sign Up</h1>
+            <h1>サインアップ</h1>
             <form>
                 <div>
-                    <label htmlFor='email'>E-mail</label>
+                    <label htmlFor='email'>Eメール</label>
                     <input
                         name='email' 
                         type='email' 
@@ -15,7 +15,7 @@ const Signup = () => {
                     />
                 </div>
                 <div>
-                    <label htmlFor='password'>Password</label>
+                    <label htmlFor='password'>パスワード</label>
                     <input 
                         name='password' 
                         type='password' 
@@ -23,7 +23,7 @@ const Signup = () => {
                         placeholder='Password' 
                     />
                 </div>
-                <button type='submit'>Sign Up</button>
+                <button type='submit'>サインアップ</button>
             </form>
         </div>
     )

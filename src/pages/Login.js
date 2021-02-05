@@ -3,10 +3,10 @@
 const Login = () => {
     return (
         <>
-            <h1>Login</h1>        
+            <h1>ログイン</h1>        
             <form>
                 <div>
-                    <label htmlFor='email'>E-mail</label>
+                    <label htmlFor='email'>メールアドレス</label>
                     <input 
                         type='email' 
                         id='email' 
@@ -15,7 +15,7 @@ const Login = () => {
                     />
                 </div>
                 <div>
-                    <label htmlFor='password'>Password</label>
+                    <label htmlFor='password'>パスワード</label>
                     <input 
                         type='password' 
                         id='password' 
