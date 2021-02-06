@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Room = () => {
-    return (
-        <>
-            <h1>チャットルーム</h1>
-        </>
-    )
-}
+  return (
+    <>
+      <h1>チャットルーム</h1>
+    </>
+  );
+};
 
-export default Room
+export default Room;
