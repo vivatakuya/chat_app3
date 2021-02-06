@@ -5,7 +5,7 @@ import firebase from "../config/firebase";
 const Signup = () => {
 const[email,setEmail]= useState('');
 const[password,setPassword]= useState('');
-
+const [name, setName] = useState('')
 
   //デフォルトの動きを抑制させる
   const handleSubmit = (e) => {
@@ -13,6 +13,11 @@ const[password,setPassword]= useState('');
     // firebaseの機能を使用したサインアップ機能
     firebase.auth().createUserWithEmailAndPassword(email, password)
     //処理が失敗した場合は、catchメソッドの関数が実行
+    .then(({ user }) => {
+      user.updateProfile({
+          displayName: name
+      })
+  })
     .catch(err =>{
         console.log(err);
     })
