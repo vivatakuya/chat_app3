@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Route, Redirect } from 'react-router-dom'
 import { AuthContext } from './AuthService'
 
-//ユーザーの中身を確かめるメソッド
+//ユーザーの中身を確かめるメソッドを使用
 const userDisplay = (user) => {
   if (user == null) {
     console.log("LoggedInRoute# user : null");
