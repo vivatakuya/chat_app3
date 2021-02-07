@@ -1,6 +1,7 @@
 import firebase from 'firebase';
 //Firebase Authenticationを使用するために、firebase/authを読み込み
 import 'firebase/auth'
+import 'firebase/firestore'
 
 const firebaseConfig ={
       apiKey: "AIzaSyB2nxYJPu8u-7ecJReve4IRuHPgnA4rlmQ",
